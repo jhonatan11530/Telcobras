@@ -1,0 +1,31 @@
+@media (min-width: 1281px) {
+    .header .navbar {
+      background-color: transparent !important;
+    }
+  }
+  .parallax {
+    background-image: url("https://percentotech.com/wp-content/uploads/2019/04/Fiber-1024x546.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax1 {
+    background-image: url("https://www.icare.cl/assets/uploads/2019/07/networking-la-guinda-de-un-buen-curriculum-o-idea-de-negocio.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .service{
+        /* The image used */
+        background-image: url("https://openexpoeurope.com/wp-content/uploads/2016/05/cloud-computing-1.jpg");
+        margin:20px auto;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+  }
