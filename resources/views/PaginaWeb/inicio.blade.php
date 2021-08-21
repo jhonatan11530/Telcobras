@@ -58,39 +58,6 @@
     </div>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title " id="exampleModalLabel"><img src="{{URL::asset('image/Telcobras.png')}}" alt="Error Image"
-                        width="150px" height="70px"></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>Hemos logrado consolidar una serie de alianzas importantes que nos han permitido
-                    ejecutar proyectos en conjunto, tanto a nivel local como a nivel nacional, gracias al trabajo
-                    profesional realizado por cada uno de nuestros colabores y con el apoyo de proveedores
-                    y contratistas</p>
-                <p>Hemos logrado consolidar una serie de alianzas importantes que nos han permitido
-                    ejecutar proyectos en conjunto, tanto a nivel local como a nivel nacional, gracias al trabajo
-                    profesional realizado por cada uno de nuestros colabores y con el apoyo de proveedores
-                    y contratistas</p>
-                <p>Hemos logrado consolidar una serie de alianzas importantes que nos han permitido
-                    ejecutar proyectos en conjunto, tanto a nivel local como a nivel nacional, gracias al trabajo
-                    profesional realizado por cada uno de nuestros colabores y con el apoyo de proveedores
-                    y contratistas</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal -->
-
 <div class="parallax1 mb-4"></div>
 
 <div class="row" style="width: 100%;">
