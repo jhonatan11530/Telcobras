@@ -21,7 +21,7 @@
     </div>
 
     <div class="col-sm-6 mb-3">
-        <img src="{{URL::asset('image/Telcobras.png')}}" alt="" height="300px" width="100%">
+        <img src="{{URL::asset('image/Telcobras.png')}}" alt="Error Image" height="300px" width="100%">
     </div>
     <div class="col-sm-6 mb-3 text-center">
 

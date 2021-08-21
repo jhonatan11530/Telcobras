@@ -7,7 +7,7 @@
         <h1><span style="color:#048ABF">QUIENES</span> <span style="color:#03A65A">SOMOS</span></h1>
         <hr>
         <div class="col-sm-12 mb-3 text-center">
-                <img src="{{URL::asset('image/Telcobras.png')}}" alt="">
+                <img src="{{URL::asset('image/Telcobras.png')}}" alt="Error Image">
         </div>
         <p>Somos una empresa colombiana con más de diez años de experiencia, constituida en una
             de las ciudades más grandes del país y de gran proyección de crecimiento económico, Cali

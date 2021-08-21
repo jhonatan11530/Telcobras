@@ -5,7 +5,7 @@
 
 <div class="row" style="width: 100%;">
     <div class="col-sm-5 mb-3">
-        <img src="{{URL::asset('image/Telcobras.png')}}" alt="" height="250px" width="100%">
+        <img src="{{URL::asset('image/Telcobras.png')}}" alt="Error Image" height="250px" width="100%">
     </div>
     <div class="col-sm-7 mb-3 text-center">
         <h1><span style="color:#048ABF">Quienes</span> <span style="color:#03A65A">Somos</span></h1>
@@ -63,7 +63,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title " id="exampleModalLabel"><img src="{{URL::asset('image/Telcobras.png')}}" alt=""
+                <h5 class="modal-title " id="exampleModalLabel"><img src="{{URL::asset('image/Telcobras.png')}}" alt="Error Image"
                         width="150px" height="70px"></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

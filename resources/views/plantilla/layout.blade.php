@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-md navbar-dark justify-content-center fixed-top">
       <a class="navbar-brand " href="#">
         <img src="{{URL::asset('image/Telcobras.png')}}" width="250" height="100" class="d-inline-block align-top"
-          alt="">
+          alt="Error Image">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsed" style="background-color: #03A65A;">
         <span class="navbar-toggler-icon"></span>
