@@ -1,8 +1,41 @@
 @media (min-width: 1281px) {
-    .header .navbar {
-      background-color: transparent !important;
-    }
+  .header .navbar {
+    background-color:rgb(255, 255, 255,0.5);
+    transition: background-color 300ms linear;
   }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header .navbar {
+    background-color:rgb(255, 255, 255,0.5);
+    transition: background-color 300ms linear;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header .navbar {
+    background-color:rgb(255, 255, 255,0.5);
+    transition: background-color 300ms linear;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .header .navbar {
+    background-color:rgb(255, 255, 255,0.5);
+    transition: background-color 300ms linear;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .header .navbar {
+    background-color:rgb(255, 255, 255,0.5);
+    transition: background-color 300ms linear;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .header .navbar {
+    background-color:rgb(255, 255, 255,0.5);
+    transition: background-color 300ms linear;
+  }
+}
+
   .parallax {
     background-image: url("https://percentotech.com/wp-content/uploads/2019/04/Fiber-1024x546.jpg");
     min-height: 500px;
@@ -13,6 +46,30 @@
   }
   .parallax1 {
     background-image: url("https://www.icare.cl/assets/uploads/2019/07/networking-la-guinda-de-un-buen-curriculum-o-idea-de-negocio.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxCobertura {
+    background-image: url("../image/cobertura.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxNosotros{
+    background-image: url("../image/nosotros.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxContanto{
+    background-image: url("../image/contacto.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;

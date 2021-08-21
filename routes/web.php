@@ -28,3 +28,10 @@ Route::get('/Cobertura', function () {
 Route::get('/Contacto', function () {
     return view('PaginaWeb.Contacto');
 });
+
+Route::get('/terminos', function () {
+    return view('PaginaWeb.terminos');
+});
+Route::get('/politica', function () {
+    return view('PaginaWeb.politica');
+});

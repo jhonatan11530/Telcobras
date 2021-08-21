@@ -1,6 +1,6 @@
 @extends('plantilla.layout')
 @section('content')
-<div class="parallax1 mb-4"></div>
+<div class="parallaxCobertura mb-4"></div>
 
 <div class="row" style="width: 100%;">
     <div class="col-sm-12 mb-3 text-center">
@@ -21,7 +21,7 @@
     </div>
 
     <div class="col-sm-6 mb-3">
-        <img src="{{URL::asset('image/1.png')}}" alt="" height="300px" width="100%">
+        <img src="{{URL::asset('image/Telcobras.png')}}" alt="" height="300px" width="100%">
     </div>
     <div class="col-sm-6 mb-3 text-center">
 

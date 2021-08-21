@@ -5,7 +5,7 @@
 
 <div class="row" style="width: 100%;">
     <div class="col-sm-5 mb-3">
-        <img src="{{URL::asset('image/1.png')}}" alt="" height="300px" width="100%">
+        <img src="{{URL::asset('image/Telcobras.png')}}" alt="" height="250px" width="100%">
     </div>
     <div class="col-sm-7 mb-3 text-center">
         <h1><span style="color:#048ABF">Quienes</span> <span style="color:#03A65A">Somos</span></h1>
@@ -15,7 +15,7 @@
             integrales, que permitan la conformación e integración de servicios convergentes para que
             nuestros clientes obtengan un mejoramiento continuo en sus operaciones</p>
         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-            Conoce Mas Sobre Nosotros
+            Conoce Mas
         </button>
     </div>
 </div>
@@ -63,7 +63,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title " id="exampleModalLabel"><img src="{{URL::asset('image/1.png')}}" alt=""
+                <h5 class="modal-title " id="exampleModalLabel"><img src="{{URL::asset('image/Telcobras.png')}}" alt=""
                         width="150px" height="70px"></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -156,140 +156,3 @@
 </div>
 
 <div class="parallax1"></div>
-
-<h1 class="text-center mb-4"><span style="color:#048ABF">NUESTROS </span> <span style="color:#03A65A">SERVICIOS</span>
-</h1>
-<div class="row row-cols-1 row-cols-md-3" style="width: 100%">
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Internet Satelital</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Inalambrica (Radio Enlace)</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Fibra Optica</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Collacations</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Outsourcing de TI</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Internet Dedicado</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Internet Banda ancha</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Interconexion de Datos</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Servicio de promocion y apropiacion</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Zonas WIFI</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Soluciones de Seguridad CCTV</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col mb-4">
-        <div class="card">
-            <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                class="card-img-top" alt="error image">
-            <div class="card-body">
-                <h5 class="card-title">Soluciones de VoIP</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-            </div>
-        </div>
-    </div>
-</div>

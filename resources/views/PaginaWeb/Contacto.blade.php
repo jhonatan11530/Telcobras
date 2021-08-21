@@ -1,6 +1,6 @@
 @extends('plantilla.layout')
 @section('content')
-<div class="parallax1 mb-4"></div>
+<div class="parallaxContanto mb-4"></div>
 <div class="row" style="width: 100%">
     <div class="col-sm-6">
         <h3 class="mb-4"><span style="color:#048ABF">Nuestro</span> <span style="color:#03A65A">Compromiso</span></h3>
