@@ -38,7 +38,7 @@
 
   .parallax {
     background-image: url("https://percentotech.com/wp-content/uploads/2019/04/Fiber-1024x546.jpg");
-    min-height: 500px;
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,8 +52,24 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .parallax2 {
+    background-image: url("/image/network-connection-7.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    background-image: url("/image/network-3524352_1920.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .parallaxCobertura {
-    background-image: url("../image/cobertura.jpg");
+    background-image: url("/image/cobertura.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -61,7 +77,7 @@
     background-size: cover;
   }
   .parallaxNosotros{
-    background-image: url("../image/nosotros.png");
+    background-image: url("/image/nosotros.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -69,7 +85,7 @@
     background-size: cover;
   }
   .parallaxContanto{
-    background-image: url("../image/contacto.jpg");
+    background-image: url("/image/contacto.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
