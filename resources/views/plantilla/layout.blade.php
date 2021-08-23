@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Telcobras</title>
 
   <!-- scripts -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -32,7 +32,8 @@
         <img src="{{URL::asset('image/Telcobras.png')}}" width="250" height="100" class="d-inline-block align-top"
           alt="Error Image">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsed" style="background-color: #03A65A;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsed"
+        style="background-color: #03A65A;">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -59,7 +60,7 @@
   </header>
 
   <script>
-$(window).scroll(function(){
+    $(window).scroll(function(){
     var scroll = $(window).scrollTop();
     if (scroll > 300) {
     $(".header .navbar").css("background" , "white");
