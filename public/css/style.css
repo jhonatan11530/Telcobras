@@ -45,7 +45,7 @@
     background-size: cover;
   }
   .parallax1 {
-    background-image: url("https://www.icare.cl/assets/uploads/2019/07/networking-la-guinda-de-un-buen-curriculum-o-idea-de-negocio.jpg");
+    background-image: url("/image/networking-la-guinda.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -53,7 +53,7 @@
     background-size: cover;
   }
   .parallax2 {
-    background-image: url("/image/network-connection-7.jpg");
+    background-image: url("/image/network-connection-2.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -63,6 +63,22 @@
   .parallax3 {
     background-image: url("/image/network-3524352_1920.jpg");
     min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax4 {
+    background-image: url("/image/network-connection-6.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProductService {
+    background-image: url("/image/ProductsServices.jpg");
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,14 +107,4 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .service{
-        /* The image used */
-        background-image: url("https://openexpoeurope.com/wp-content/uploads/2016/05/cloud-computing-1.jpg");
-        margin:20px auto;
-        background-size: 100% 100%;
-        background-repeat:no-repeat;
-        background-size: cover;
-        background-position: center;
-        
   }

@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 */
 Route::get('/', function () {
-    return view('PaginaWeb.inicio');
+    return view('PaginaWeb.Inicio');
 });
 Route::get('/Productos-Servicios', function () {
     return view('PaginaWeb.Productos-Servicios');
@@ -28,10 +28,15 @@ Route::get('/Cobertura', function () {
 Route::get('/Contacto', function () {
     return view('PaginaWeb.Contacto');
 });
-
+Route::get('/Productos-Servicios/tecnologia', function () {
+    return view('PaginaWeb.Tecnologia');
+});
+Route::get('/Productos-Servicios/servicios', function () {
+    return view('PaginaWeb.Servicio');
+});
 Route::get('/terminos', function () {
-    return view('PaginaWeb.terminos');
+    return view('PaginaWeb.Terminos');
 });
 Route::get('/politica', function () {
-    return view('PaginaWeb.politica');
+    return view('PaginaWeb.Politica');
 });

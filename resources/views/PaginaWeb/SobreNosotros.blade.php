@@ -55,8 +55,8 @@
     <div class="row row-cols-1 row-cols-md-3" style="width: 100%">
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                    class="card-img-top" height="150" width="100%" alt="...">
+                <img src="{{URL::asset('image/bombillo-idea.png')}}"
+                    class="card-img-top" height="150" width="100%" alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Responsabilidad</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -67,8 +67,8 @@
         </div>
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                    class="card-img-top" height="150" width="100%" alt="...">
+                <img src="{{URL::asset('image/bombillo-idea.png')}}"
+                    class="card-img-top" height="150" width="100%" alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Compromiso</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -79,8 +79,8 @@
         </div>
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-                    class="card-img-top" height="150" width="100%" alt="...">
+                <img src="{{URL::asset('image/bombillo-idea.png')}}"
+                    class="card-img-top" height="150" width="100%" alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Calidad</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
