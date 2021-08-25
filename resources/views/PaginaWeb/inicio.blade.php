@@ -32,17 +32,22 @@
     <div class="row row-cols-1 row-cols-md-2">
         <div class="col-sm-6 mb-3 text-center">
             <div class="card">
+                <img src="{{URL::asset('image/mision.svg')}}" height="150px" class="card-img-top" alt="Error Image">
                 <h5 class="card-title">Mision</h5>
                 <div class="card-body">
-                    This is some text within a card body.
+                    Ser una empresa líder en Latinoamérica en la generación de desarrollo sostenible en el sector de las
+                    TIC, perfeccionando modelos de apropiación, que produzcan avances a nuestros aliados estratégicos y
+                    a sus comunidades.
                 </div>
             </div>
         </div>
         <div class="col-sm-6 mb-3 text-center">
             <div class="card">
+                <img src="{{URL::asset('image/vision.svg')}}" height="150px" class="card-img-top" alt="Error Image">
                 <h5 class="card-title">Vision</h5>
                 <div class="card-body">
-                    This is some text within a card body.
+                    Ser un aliado de las organizaciones en la formulación e implementación de proyectos que impacten a
+                    la comunidad mediante la implementación y apropiación de las TIC. Calidad vida.
                 </div>
             </div>
         </div>
@@ -58,46 +63,46 @@
 <div class="container-fluid">
     <div class="row row-cols-1 row-cols-md-6">
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/ERT-1.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/ERT-1.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/INTERNEXA.jpg')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/INTERNEXA.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/Media-Commerce.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/Media-Commerce.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/MINEDUCACION.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/MINEDUCACION.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/MINTIC.jpg')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/MINTIC.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/TELEFONICA-MOVISTAR.jpg')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/TELEFONICA-MOVISTAR.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/TIGO-UNE.jpg')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/TIGO-UNE.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/impretics.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/impretics.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/Infotic.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/Infotic.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/claro.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/claro.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/gobernacionlogo.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/gobernacionlogo.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/SUBACHOQUE.png')}}" width="120px" height="100px" alt="Error Image">
+            <img src="{{URL::asset('aliados/SUBACHOQUE.svg')}}" width="80%" height="80%" alt="Error Image">
         </div>
     </div>
 </div>
 
 <div class="parallax3">
-    <div class="container-fluid mb-4">
+    <div class="container-fluid">
         <div class="row row-cols-1 row-cols-md-2" style="background-color:rgba(77, 77, 77, 0.8);color: white;">
             <div class="col mb-4">
                 <h1 style="margin: 50px;font-size: 70px">NOSOTROS</h1>
@@ -108,19 +113,6 @@
                 <img src="{{URL::asset('image/bombillo-idea.png')}}" style="height: 600px" class="card-img-top"
                     alt="Error Image">
             </div>
-        </div>
-    </div>
-</div>
-
-
-<h1 class="text-center">Medidor de velocidad</h1>
-<h5 class="text-center">Verifica la rapidez de tu conexión con este sencillo test y comprueba la velocidad con que
-    recibes y subes datos a la red.</h5>
-<div style="text-align:right;">
-    <div style="min-height:360px;">
-        <div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe
-                style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;"
-                src="//openspeedtest.com/Get-widget.php"></iframe>
         </div>
     </div>
 </div>

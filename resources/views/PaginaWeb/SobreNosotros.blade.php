@@ -7,7 +7,7 @@
             <h1><span style="color:#048ABF">QUIENES</span> <span style="color:#03A65A">SOMOS</span></h1>
             <hr>
             <div class="col-sm-12 mb-3 text-center">
-                <img src="{{URL::asset('image/Telcobras.png')}}" alt="Error Image">
+                    <img src="{{URL::asset('image/Telcobras.svg')}}" width="100%" height="500px" alt="Error Image">
             </div>
             <p>Somos una empresa colombiana con más de diez años de experiencia, constituida en una
                 de las ciudades más grandes del país y de gran proyección de crecimiento económico, Cali
@@ -32,17 +32,22 @@
         </div>
         <div class="col-sm-6 mb-3 text-center">
             <div class="card">
+                <img src="{{URL::asset('image/mision.svg')}}" height="150px" class="card-img-top" alt="Error Image">
                 <h5 class="card-title">Mision</h5>
                 <div class="card-body">
-                    This is some text within a card body.
+                    Ser una empresa líder en Latinoamérica en la generación de desarrollo sostenible en el sector de las
+                    TIC, perfeccionando modelos de apropiación, que produzcan avances a nuestros aliados estratégicos y
+                    a sus comunidades.
                 </div>
             </div>
         </div>
         <div class="col-sm-6 mb-3 text-center">
             <div class="card">
+                <img src="{{URL::asset('image/vision.svg')}}" height="150px" class="card-img-top" alt="Error Image">
                 <h5 class="card-title">Vision</h5>
                 <div class="card-body">
-                    This is some text within a card body.
+                    Ser un aliado de las organizaciones en la formulación e implementación de proyectos que impacten a
+                    la comunidad mediante la implementación y apropiación de las TIC. Calidad vida.
                 </div>
             </div>
         </div>
@@ -55,8 +60,8 @@
     <div class="row row-cols-1 row-cols-md-3" style="width: 100%">
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}"
-                    class="card-img-top" height="150" width="100%" alt="Error Image">
+                <img src="{{URL::asset('image/bombillo-idea.png')}}" class="card-img-top" height="150" width="100%"
+                    alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Responsabilidad</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -67,8 +72,8 @@
         </div>
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}"
-                    class="card-img-top" height="150" width="100%" alt="Error Image">
+                <img src="{{URL::asset('image/bombillo-idea.png')}}" class="card-img-top" height="150" width="100%"
+                    alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Compromiso</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -79,8 +84,8 @@
         </div>
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}"
-                    class="card-img-top" height="150" width="100%" alt="Error Image">
+                <img src="{{URL::asset('image/bombillo-idea.png')}}" class="card-img-top" height="150" width="100%"
+                    alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Calidad</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
