@@ -24,7 +24,8 @@
             <h3 class="text-center mb-4"><span style="color:#048ABF">ENVÍANOS UN</span> <span
                     style="color:#03A65A">MENSAJE</span></h3>
 
-            <form>
+            <form action="Telcobras/Contacto" method="POST">
+                {{ csrf_field() }}
                 <div class="form-row col-md-12">
                     <div class="form-group col-md-6">
                         <label for="inputName">Nombre Completo</label>

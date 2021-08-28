@@ -40,3 +40,5 @@ Route::get('/terminos', function () {
 Route::get('/politica', function () {
     return view('PaginaWeb.Politica');
 });
+Route::post('Telcobras/Soporte','MailController@MailSoporte');
+Route::post('Telcobras/Contacto','MailController@MailContacto');

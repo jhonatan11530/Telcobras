@@ -85,82 +85,118 @@
           </button>
         </div>
         <div class="modal-body">
-          <div class="row">
-            <div class="col-sm-6">
-              <label for="">Nombre De la Empresa</label>
-              <input type="text" class="form-control" name="" id="">
+          <form id="formulario_soporte" action="Telcobras/Soporte" method="POST">
+            {{ csrf_field() }}
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="NameBusiness">Nombre De la Empresa <span style="color: red">*</span></label>
+                <input id="NameBusiness" type="text" class="form-control" name="NombreEmpresa" required>
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="IdVerificacion">Tipo de Identificacion <span style="color: red">*</span></label>
+                <select id="IdVerificacion" name="TipoIdentificacion" class="form-control" required>
+                  <option disabled selected>Seleccione</option>
+                  <option value="Registro civil">Registro civil(RC)</option>
+                  <option value="Tarjeta de identidad">Tarjeta de identidad(TI)</option>
+                  <option value="Cedula de ciudadania">Cédula de ciudadanía(CC)</option>
+                  <option value="Tarjeta de extranjeria">Tarjeta de extranjería(TE)</option>
+                  <option value="Cedula de extranjeria">Cédula de extranjería(CE)</option>
+                  <option value="Numero de identificación tributaria">Número de identificación tributaria(NIT)</option>
+                  <option value="Pasaporte">Pasaporte(PP)</option>
+                  <option value="Documento de identificación extranjero">Documento de identificación extranjero(DIE)
+                  </option>
+                </select>
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="IDService">ID del servicio <span style="color: red">*</span></label>
+                <input id="IDService" type="number" class="form-control" min="0" name="IDService" required>
+              </div>
+              <div class=" form-group col-sm-6">
+                <label for="NameService">Nombre del servicio <span style="color: red">*</span></label>
+                <select id="NameService" name="NombreService" class="form-control" required>
+                  <option disabled selected>Seleccione</option>
+                  <option value="DATO 1">DATO 1</option>
+                  <option value="DATO 1">DATO 2</option>
+                  <option value="DATO 1">DATO 3</option>
+                  <option value="DATO 1">DATO 4</option>
+                  <option value="DATO 1">DATO 5</option>
+                </select>
+              </div>
             </div>
-            <div class="col-sm-6">
-              <label for="">Tipo de Identificacion</label>
-              <select name="" id="" class="form-control">
-                <option value="" disabled selected>Seleccione</option>
-                <option value="Registro civil">Registro civil(RC)</option>
-                <option value="Tarjeta de identidad">Tarjeta de identidad(TI)</option>
-                <option value="Cedula de ciudadania">Cédula de ciudadanía(CC)</option>
-                <option value="Tarjeta de extranjeria">Tarjeta de extranjería(TE)</option>
-                <option value="Cedula de extranjeria">Cédula de extranjería(CE)</option>
-                <option value="Numero de identificación tributaria">Número de identificación tributaria(NIT)</option>
-                <option value="Pasaporte">Pasaporte(PP)</option>
-                <option value="Documento de identificación extranjero">Documento de identificación extranjero(DIE)
-                </option>
-              </select>
+            <hr>
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="NameContacs">Nombre Contacto En Sitio <span style="color: red">*</span></label>
+                <input id="NameContacs" type="text" class="form-control" name="NombreContactoSitio" required>
+              </div>
+              <div class="form-group col-sm-3">
+                <label for="Phone">Teléfono <span style="color: red">*</span></label>
+                <input id="Phone" type="number" class="form-control" min="0" name="TelefonoContactoSitio" required>
+              </div>
+              <div class="form-group col-sm-3">
+                <label for="ExtPhone">Extensión Teléfono <span style="color: red">*</span></label>
+                <input id="ExtPhone" type="number" class="form-control" min="0" name="ExtTelefonoContactoSitio"
+                  required>
+              </div>
             </div>
-            <div class="col-sm-6">
-              <label for="">ID del servicio</label>
-              <input type="text" class="form-control" name="" id="">
+            <hr>
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="AtencionRequire">REQUIERE ATENCION <span style="color: red">*</span></label>
+                <select id="AtencionRequire" name="AtencionRequire" class="form-control" required>
+                  <option value="" disabled selected>Seleccione</option>
+                  <option value="DIFICULTAD BAJA">DIFICULTAD BAJA</option>
+                  <option value="DIFICULTAD MEDIA">DIFICULTAD MEDIA</option>
+                  <option value="DIFICULTAD ALTA">DIFICULTAD ALTA</option>
+                  <option value="ATENCION URGENTE">ATENCION URGENTE</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-12">
+                <label for="Observe">Observaciones </label>
+                <textarea id="Observe" name="Observaciones" cols="30" rows="10" class="form-control"
+                  placeholder="Opcional"></textarea>
+              </div>
             </div>
-            <div class="col-sm-6">
-              <label for="">Nombre del servicio</label>
-              <select name="" id="" class="form-control">
-                <option value="">DATO 1</option>
-                <option value="">DATO 2</option>
-                <option value="">DATO 3</option>
-                <option value="">DATO 4</option>
-                <option value="">DATO 5</option>
-              </select>
+            <div class="form-row">
+              <div class="col-sm-3">
+                <button type="submit" class="form-control btn btn-primary">Enviar</button>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-6">
-              <label for="">Nombre Contacto En Sitio</label>
-              <input type="text" class="form-control" name="" id="">
-            </div>
-            <div class="col-sm-3">
-              <label for="">Teléfono</label>
-              <input type="text" class="form-control" name="" id="">
-            </div>
-            <div class="col-sm-3">
-              <label for="">Extensión Teléfono</label>
-              <input type="text" class="form-control" name="" id="">
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-6">
-              <label for="">REQUIERE ATENCION</label>
-              <select name="" id="" class="form-control">
-                <option value="" disabled selected>Seleccione</option>
-                <option value="">DIFICULTAD BAJA</option>
-                <option value="">DIFICULTAD MEDIA</option>
-                <option value="">DIFICULTAD ALTA</option>
-                <option value="">ATENCION URGENTE</option>
-              </select>
-            </div>
-            <div class="col-sm-12">
-              <label for="">Observaciones</label>
-              <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
-            </div>
-          </div>
+          </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal -->
-
+  <script>
+    $(document).ready(function () {
+      $("#formulario_soporte").on("submit", function(e){
+        $.ajax({
+              type: $(this).attr("method"),
+              url: $(this).attr("action"),
+              data:$(this).serialize(),
+              beforeSend: function(){
+                alert("Enviando");
+                // btnEnviar.val("Enviando");
+              },
+              complete:function(data){
+                alert("Enviar formulario");
+                //  btnEnviar.val("Enviar formulario");
+              },
+              success: function(data){
+                alert("ok");
+                // $(".respuesta").html(data);
+              },
+              error: function(data){
+                  alert("Problemas al tratar de enviar el formulario");
+              }
+          });
+      });
+    });
+  </script>
   <footer class="bg-success text-white text-center text-lg-start">
     <!-- Grid container -->
     <div class="container p-4">
