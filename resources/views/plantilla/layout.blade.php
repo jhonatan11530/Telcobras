@@ -29,7 +29,7 @@
   <header class="header">
     <nav class="navbar navbar-expand-md navbar-dark justify-content-center bg-white fixed-top">
       <a class="navbar-brand " href="/">
-        <img src="{{URL::asset('image/Telcobras.png')}}" width="100%" height="100px" class="d-inline-block align-top"
+        <img src="{{URL::asset('image/Telcobras.png')}}" width="100%" height="70px" class="d-inline-block align-top"
           alt="Error Image">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsed"
@@ -76,20 +76,85 @@
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Soporte</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="">Nombre De la Empresa</label>
+              <input type="text" class="form-control" name="" id="">
+            </div>
+            <div class="col-sm-6">
+              <label for="">Tipo de Identificacion</label>
+              <select name="" id="" class="form-control">
+                <option value="" disabled selected>Seleccione</option>
+                <option value="Registro civil">Registro civil(RC)</option>
+                <option value="Tarjeta de identidad">Tarjeta de identidad(TI)</option>
+                <option value="Cedula de ciudadania">Cédula de ciudadanía(CC)</option>
+                <option value="Tarjeta de extranjeria">Tarjeta de extranjería(TE)</option>
+                <option value="Cedula de extranjeria">Cédula de extranjería(CE)</option>
+                <option value="Numero de identificación tributaria">Número de identificación tributaria(NIT)</option>
+                <option value="Pasaporte">Pasaporte(PP)</option>
+                <option value="Documento de identificación extranjero">Documento de identificación extranjero(DIE)
+                </option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <label for="">ID del servicio</label>
+              <input type="text" class="form-control" name="" id="">
+            </div>
+            <div class="col-sm-6">
+              <label for="">Nombre del servicio</label>
+              <select name="" id="" class="form-control">
+                <option value="">DATO 1</option>
+                <option value="">DATO 2</option>
+                <option value="">DATO 3</option>
+                <option value="">DATO 4</option>
+                <option value="">DATO 5</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="">Nombre Contacto En Sitio</label>
+              <input type="text" class="form-control" name="" id="">
+            </div>
+            <div class="col-sm-3">
+              <label for="">Teléfono</label>
+              <input type="text" class="form-control" name="" id="">
+            </div>
+            <div class="col-sm-3">
+              <label for="">Extensión Teléfono</label>
+              <input type="text" class="form-control" name="" id="">
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="">REQUIERE ATENCION</label>
+              <select name="" id="" class="form-control">
+                <option value="" disabled selected>Seleccione</option>
+                <option value="">DIFICULTAD BAJA</option>
+                <option value="">DIFICULTAD MEDIA</option>
+                <option value="">DIFICULTAD ALTA</option>
+                <option value="">ATENCION URGENTE</option>
+              </select>
+            </div>
+            <div class="col-sm-12">
+              <label for="">Observaciones</label>
+              <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
