@@ -59,17 +59,6 @@
     </nav>
   </header>
 
-  <script>
-    $(window).scroll(function(){
-    var scroll = $(window).scrollTop();
-    if (scroll > 300) {
-    $(".header .navbar").css("background" , "white");
-    }else{
-    $(".header .navbar").css("background" , "rgb(255, 255, 255,0.5)");
-    }
-    })
-  </script>
-
   <!-- Contenido AQUI SE PUBLICA EL CONTENIDO -->
   @yield('content')
   <!-- Contenido -->
