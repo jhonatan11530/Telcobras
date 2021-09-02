@@ -8,7 +8,7 @@
     <div class="row row-cols-1 row-cols-md-3 text-center" style="width: 100%">
         <div class="col mb-4">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}"
+                <img src="{{URL::asset('image/ordenador-portatil.svg')}}"
                     class="card-img-top" alt="error image">
                 <div class="card-body">
                     <h5 class="card-title">tecnologías</h5>
@@ -20,18 +20,18 @@
         </div>
         <div class="col mb-4">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}"
+                <img src="{{URL::asset('image/proyecto.svg')}}"
                     class="card-img-top" alt="error image">
                 <div class="card-body">
                     <h5 class="card-title">Proyectos</h5>
                     <p class="card-text">Conoce los proyectos en que hemos participado.</p>
                 </div>
-                <a href="#" class="stretched-link"></a>
+                <a href="/Productos-Servicios/proyecto" class="stretched-link"></a>
             </div>
         </div>
         <div class="col mb-4">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}"
+                <img src="{{URL::asset('image/servicio-al-cliente.svg')}}"
                     class="card-img-top" alt="error image">
                 <div class="card-body">
                     <h5 class="card-title">Servicios</h5>

@@ -60,7 +60,7 @@
     <div class="row row-cols-1 row-cols-md-3" style="width: 100%">
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}" class="card-img-top" height="150" width="100%"
+                <img src="{{URL::asset('image/responsabilidad.svg')}}" class="card-img-top" height="150" width="100%"
                     alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Responsabilidad</h5>
@@ -72,7 +72,7 @@
         </div>
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}" class="card-img-top" height="150" width="100%"
+                <img src="{{URL::asset('image/compromiso-social.svg')}}" class="card-img-top" height="150" width="100%"
                     alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Compromiso</h5>
@@ -84,7 +84,7 @@
         </div>
         <div class="col-sm-4 mb-2">
             <div class="card">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}" class="card-img-top" height="150" width="100%"
+                <img src="{{URL::asset('image/seguro-de-calidad.svg')}}" class="card-img-top" height="150" width="100%"
                     alt="Error Image">
                 <div class="card-body">
                     <h5 class="card-title">Calidad</h5>

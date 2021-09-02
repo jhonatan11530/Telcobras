@@ -34,6 +34,9 @@ Route::get('/Productos-Servicios/tecnologia', function () {
 Route::get('/Productos-Servicios/servicios', function () {
     return view('PaginaWeb.Servicio');
 });
+Route::get('/Productos-Servicios/proyecto', function () {
+    return view('PaginaWeb.proyecto');
+});
 Route::get('/terminos', function () {
     return view('PaginaWeb.Terminos');
 });

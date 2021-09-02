@@ -2,7 +2,7 @@
 @section('content')
 <div class="parallaxContanto mb-4"></div>
 <div class="container-fluid">
-    <div class="row" style="width: 100%">
+    <div class="row">
         <div class="col-sm-6">
             <h3 class="mb-4"><span style="color:#048ABF">Nuestro</span> <span style="color:#03A65A">Compromiso</span>
             </h3>
@@ -11,15 +11,24 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         <div class="col-sm-6">
-            <br><br>
-            <p class="card-text mb-5">This is a longer card with supporting text below as a natural lead-in to
-                additional
-                content. This content is a little bit longer. This is a longer card with supporting text below as a
-                natural
-                lead-in to additional
-                content. This content is a little bit longer</p>
+            <h5>
+                <p class="card-text mb-5">Nuestros servicios se prestan a nivel nacional, pero en caso de que quieras
+                    comunicarte para una solicitud, nuestra sede principal se encuentra en la ciudad de Cali - Colombia.
+                </p>
+                <div class="col mb-5"><span style="font-size: 70px; color: Dodgerblue;">
+                        <i class="fas fa-search-location"></i>
+                    </span>UBICACIÓN : ### ### ####</div>
+                <div class="col mb-5"><span style="font-size: 70px; color: Dodgerblue;">
+                        <i class="fas fa-phone-alt"></i>
+                    </span>LINEAS TELEFÓNICAS : ### ### ### - ### ### ####</div>
+                <div class="col mb-5"><span style="font-size: 70px; color: Dodgerblue;">
+                        <i class="fas fa-envelope"></i>
+                    </span>EMAIL : <a href="mailto:correo@telcobras.com">info@telcobras.com</a></div>
+            </h5>
         </div>
+    </div>
 
+    <div class="row">
         <div class="col-sm-12">
             <h3 class="text-center mb-4"><span style="color:#048ABF">ENVÍANOS UN</span> <span
                     style="color:#03A65A">MENSAJE</span></h3>
