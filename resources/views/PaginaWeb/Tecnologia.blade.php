@@ -7,7 +7,7 @@
     <div class="card">
         <img src="{{URL::asset('image/fibra-oscura.jpg')}}" width="100%" height="100%" alt="Error Image">
     </div>
-    <div class="card col-lg-6 col-xl-6">
+    <div class="card col-lg-6 col-xl-6" id="ID1">
         <div class="container">
             <h1 style="color: #1CA658" class="text-center mb-4">Fibra óptica</h1>
             <h2 style="color: #1CA658">Troncales Municipales:</h2>
@@ -30,8 +30,8 @@
         </div>
     </div>
 </div>
-<div class="row flex-column-reverse flex-lg-row no-gutters">
-    <div class="col-lg-6 col-xl-6">
+<div class="row flex-column-reverse flex-lg-row no-gutters" id="ID2">
+    <div class="col-lg-6 col-xl-6" >
         <div class="container">
             <h1 style="color: #1CA658" class="text-center mb-4">Inalámbrica (Radio Enlaces)</h1>
             <h2 style="color: #1CA658">Troncales dedicadas:</h2>
@@ -44,25 +44,26 @@
                 y puntos estratégicos de nuestra red de
                 acceso para soluciones de conectividad.</p>
             <h2 style="color: #1CA658">Últimas millas (UK):</h2>
-            <p>Ofrecemos
+            <p >Ofrecemos
                 enlaces sobre los sitios de su interés con
                 nodos o centros de datos mediante
                 soluciones extremo a extremo
                 totalmente integradas</p>
         </div>
     </div>
-    <div class="col-lg-6 col-xl-6">
-        <div class="card">
-            <img src="{{URL::asset('image/network-connection-9.jpg')}}" width="100%" height="100%" alt="Error Image">
+    <div class="col-lg-6 col-xl-6"  >
+        <div class="card" >
+            <img src="{{URL::asset('image/network-connection-9.jpg')}}" width="100%" height="100%" alt="Error Image" >
         </div>
     </div>
+    
 </div>
-<div class="card-group">
+<div class="card-group" >
     <div class="card">
         <img src="{{URL::asset('image/internet-satelital.jpg')}}" width="100%" height="100%" alt="Error Image">
     </div>
-    <div class="card">
-        <div class="container">
+    <div class="card" >
+        <div class="container" id="ID3">
             <h1 style="color: #1CA658" class="text-center mb-4">Internet satelital</h1>
             <p>Ofrecemos un servicio con los beneficios de acceso a Internet vía satélite, el cual le permite a su
                 empresa estar conectado a la red sin importar su ubicación con altos niveles de calidad y
@@ -87,7 +88,7 @@
         </div>
     </div>
 </div>
-<div class="row flex-column-reverse flex-lg-row no-gutters">
+<div class="row flex-column-reverse flex-lg-row no-gutters" id="ID4">
     <div class="col-lg-6 col-xl-6">
         <div class="container">
             <h1 style="color: #1CA658" class="text-center mb-4">Collocations</h1>
@@ -125,12 +126,12 @@
         <img src="{{URL::asset('image/network-connection-7.jpg')}}" style="width: 100%;height: 100%;" alt="Error Image">
     </div>
 </div>
-<div class="card-group">
+<div class="card-group" id="ID5">
     <div class="card">
         <img src="{{URL::asset('image/Outsourcing.png')}}" width="100%" height="100%" alt="Error Image">
     </div>
-    <div class="card">
-        <div class="container">
+    <div class="card" >
+        <div class="container" >
             <h1 style="color: #1CA658" class="text-center mb-4">Outsourcing de TI</h1>
             <p>Brindamos un equipo humano altamente
                 calificado y a su vez herramientas tecnológicas

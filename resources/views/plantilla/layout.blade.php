@@ -13,10 +13,7 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
   </script>
@@ -160,8 +157,72 @@
     </div>
   </div>
   <!-- Modal -->
-  <script>
+  <script type="text/javascript">
+    $(window).on('load',function() {
+        var url =  window.location.hash;
+        var id = url.substring(url.lastIndexOf('#') + 1);
+
+        if(id=="InternetSatelital"){
+          $('html, body').animate({
+          scrollTop: $("#InternetSatelital1").offset().top
+          }, 1500); 
+        }
+        if(id=="Inalambrica"){
+          $('html, body').animate({
+          scrollTop: $("#InternetSatelital1").offset().top
+          }, 1500); 
+        }
+        if(id=="FibraOptica"){
+          $('html, body').animate({
+          scrollTop: $("#InternetSatelital1").offset().top
+          }, 1500); 
+        }
+        if(id=="Collacations"){
+          $('html, body').animate({
+          scrollTop: $("#InternetSatelital1").offset().top
+          }, 1500); 
+        }
+        if(id=="Outsourcing"){
+          $('html, body').animate({
+          scrollTop: $("#InternetSatelital1").offset().top
+          }, 1500); 
+        }
+        if(id=="InternetDedicado"){
+          $('html, body').animate({
+          scrollTop: $("#InternetSatelital1").offset().top
+          }, 1500); 
+        }
+    });
+
     $(document).ready(function () {
+
+    $("#Optica").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#ID1").offset().top
+          }, 1500);
+    }) 
+    $("#Inalambrico").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#ID2").offset().top
+          }, 1500);
+    })
+    $("#Satelital").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#ID3").offset().top
+          }, 1500);
+    }) 
+
+    $("#Collacation").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#ID4").offset().top
+          }, 1500);
+    }) 
+    $("#OutsourcingTI").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#ID5").offset().top
+          }, 1500);
+    })
+
       $("#formulario_soporte").on("submit", function(e){
         $.ajax({
               type: $(this).attr("method"),
@@ -232,23 +293,22 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase mb-3">PRODUCTOS Y SERVICIOS</h5>
           <ul class="list-unstyled">
+
             <li class="mb-2">
-              <a href="#!" class="text-white">Internet Satelital</a>
+              <a href="/Productos-Servicios/tecnologia#FibraOptica" id="Optica" class="text-white">Fibra Optica</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">Inalambrica (Radio Enlace)</a>
+              <a href="/Productos-Servicios/tecnologia#Inalambrica" id="Inalambrico" class="text-white">Inalambrica (Radio Enlace)</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">Fibra Optica</a>
+              <a href="/Productos-Servicios/tecnologia#InternetSatelital" id="Satelital" class="text-white">Internet
+                Satelital</a>
+            </li> 
+            <li class="mb-2">
+              <a href="/Productos-Servicios/tecnologia#Collacations" id="Collacation" class="text-white">Collacations</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white">Collacations</a>
-            </li>
-            <li class="mb-2">
-              <a href="#!" class="text-white">Outsourcing de TI</a>
-            </li>
-            <li class="mb-2">
-              <a href="#!" class="text-white">Internet Dedicado</a>
+              <a href="/Productos-Servicios/tecnologia#Outsourcing" id="OutsourcingTI" class="text-white">Outsourcing de TI</a>
             </li>
           </ul>
         </div>

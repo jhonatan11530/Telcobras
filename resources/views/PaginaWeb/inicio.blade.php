@@ -1,7 +1,7 @@
 @extends('plantilla.layout')
 @section('content')
 
-<div class="parallax"></div>
+<div class="parallax mb-4"></div>
 
 <div class="parallax2">
     <div class="container-fluid mb-4">
@@ -63,44 +63,43 @@
 <div class="container-fluid">
     <div class="row row-cols-1 row-cols-md-6">
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/ERT-1.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/ERT-1.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/INTERNEXA.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/INTERNEXA.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/Media-Commerce.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/Media-Commerce.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/MINEDUCACION.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/MINEDUCACION.svg')}}" class="img-fluid" style="height: 250px;" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/MINTIC.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/MINTIC.svg')}}" class="img-fluid " style="height: 250px" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/TELEFONICA-MOVISTAR.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/TELEFONICA-MOVISTAR.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/TIGO-UNE.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/TIGO-UNE.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/impretics.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/impretics.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/Infotic.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/Infotic.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/claro.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/claro.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/gobernacionlogo.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/gobernacionlogo.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/SUBACHOQUE.svg')}}" width="80%" height="80%" alt="Error Image">
+            <img src="{{URL::asset('aliados/SUBACHOQUE.svg')}}" class="img-fluid" alt="Error Image">
         </div>
     </div>
 </div>
-
 <div class="parallax3">
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-md-2" style="background-color:rgba(77, 77, 77, 0.8);color: white;">
@@ -109,8 +108,8 @@
                 <a href="/Contacto" style="margin: 50px;font-size: 40px;" class="btn btn-primary">SOLICITAR
                     COTIZACION</a>
             </div>
-            <div class="col mb-4">
-                <img src="{{URL::asset('image/bombillo-idea.png')}}" style="height: 600px" class="card-img-top"
+            <div class="col mb-4" style="height: 600px">
+                <img src="{{URL::asset('image/Telcobras.png')}}" style="position: absolute;right: 50px;top: 100px;" class="card-img-top"
                     alt="Error Image">
             </div>
         </div>

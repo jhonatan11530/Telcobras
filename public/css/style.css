@@ -1,6 +1,6 @@
 
   .parallax {
-    background-image: url("https://percentotech.com/wp-content/uploads/2019/04/Fiber-1024x546.jpg");
+    background-image: url("/image/cover.png");
     min-height: 600px;
     background-attachment: fixed;
     background-position: center;
