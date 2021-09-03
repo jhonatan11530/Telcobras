@@ -7,6 +7,12 @@
     <title>Contacto de la pagina web</title>
 </head>
 <body>
-    Datos del cliente Posible Venta
+    Datos del cliente Posible Venta 
+    {{$mensaje['Nombre']}}
+    {{$mensaje['Telefono']}}
+    {{$mensaje['Correo']}}
+    {{$mensaje['Ciudad']}}
+    {{$mensaje['Departamento']}}
+    {{$mensaje['Mensaje']}}
 </body>
 </html>

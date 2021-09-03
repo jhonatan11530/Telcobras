@@ -33,6 +33,7 @@ class MailController extends Controller
             'Nombre'=>'required',
             'Telefono'=>'required',
             'Correo'=>'required',
+            'Ciudad'=>'required',
             'Departamento'=>'required',
             'Mensaje'=>'required',
         ]);

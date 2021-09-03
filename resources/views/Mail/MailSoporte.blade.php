@@ -8,5 +8,14 @@
 </head>
 <body>
     Datos del cliente Posible Venta
+    {{$mensaje['NombreEmpresa']}}
+    {{$mensaje['TipoIdentificacion']}}
+    {{$mensaje['IDService']}}
+    {{$mensaje['NombreService']}}
+    {{$mensaje['NombreContactoSitio']}}
+    {{$mensaje['TelefonoContactoSitio']}}
+    {{$mensaje['ExtTelefonoContactoSitio']}}
+    {{$mensaje['AtencionRequire']}}
+    {{$mensaje['Observaciones']}}
 </body>
 </html>

@@ -71,7 +71,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form id="formulario_soporte" action="Telcobras/Soporte" method="POST">
+          <form action="Telcobras/Soporte" method="POST">
             {{ csrf_field() }}
             <div class="form-row">
               <div class="form-group col-sm-6">
@@ -222,29 +222,6 @@
           scrollTop: $("#ID5").offset().top
           }, 1500);
     })
-
-      $("#formulario_soporte").on("submit", function(e){
-        $.ajax({
-              type: $(this).attr("method"),
-              url: $(this).attr("action"),
-              data:$(this).serialize(),
-              beforeSend: function(){
-                alert("Enviando");
-                // btnEnviar.val("Enviando");
-              },
-              complete:function(data){
-                alert("Enviar formulario");
-                //  btnEnviar.val("Enviar formulario");
-              },
-              success: function(data){
-                alert("ok");
-                // $(".respuesta").html(data);
-              },
-              error: function(data){
-                  alert("Problemas al tratar de enviar el formulario");
-              }
-          });
-      });
     });
   </script>
   <footer class="bg-success text-white text-center text-lg-start">
@@ -298,17 +275,20 @@
               <a href="/Productos-Servicios/tecnologia#FibraOptica" id="Optica" class="text-white">Fibra Optica</a>
             </li>
             <li class="mb-2">
-              <a href="/Productos-Servicios/tecnologia#Inalambrica" id="Inalambrico" class="text-white">Inalambrica (Radio Enlace)</a>
+              <a href="/Productos-Servicios/tecnologia#Inalambrica" id="Inalambrico" class="text-white">Inalambrica
+                (Radio Enlace)</a>
             </li>
             <li class="mb-2">
               <a href="/Productos-Servicios/tecnologia#InternetSatelital" id="Satelital" class="text-white">Internet
                 Satelital</a>
-            </li> 
-            <li class="mb-2">
-              <a href="/Productos-Servicios/tecnologia#Collacations" id="Collacation" class="text-white">Collacations</a>
             </li>
             <li class="mb-2">
-              <a href="/Productos-Servicios/tecnologia#Outsourcing" id="OutsourcingTI" class="text-white">Outsourcing de TI</a>
+              <a href="/Productos-Servicios/tecnologia#Collacations" id="Collacation"
+                class="text-white">Collacations</a>
+            </li>
+            <li class="mb-2">
+              <a href="/Productos-Servicios/tecnologia#Outsourcing" id="OutsourcingTI" class="text-white">Outsourcing de
+                TI</a>
             </li>
           </ul>
         </div>

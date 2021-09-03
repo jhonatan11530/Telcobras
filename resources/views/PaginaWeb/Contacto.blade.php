@@ -46,7 +46,11 @@
                         <label for="inputCorreo">Correo</label>
                         <input name="Correo" type="email" class="form-control" id="inputCorreo">
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-3">
+                        <label for="inputAddress2">Ciudad</label>
+                        <input name="Ciudad" type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
                         <label for="inputAddress2">Departamento</label>
                         <input name="Departamento" type="text" class="form-control">
                     </div>
