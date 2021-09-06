@@ -8,37 +8,25 @@ use Illuminate\Http\Request;
 
 class MailController extends Controller
 {
-    public function MailSoporte(Request $request)
-    {
-     
-        $mensaje= request()->validate([
-            'NombreEmpresa'=>'required',
-            'TipoIdentificacion'=>'required',
-            'IDService'=>'required',
-            'NombreService'=>'required',
-            'NombreContactoSitio'=>'required',
-            'TelefonoContactoSitio'=>'required',
-            'ExtTelefonoContactoSitio'=>'required',
-            'AtencionRequire'=>'required',
-            'Observaciones'=>'required',
-        ]);
-        Mail::to('desarrollo1@stratecsa.com')->send(new MessageSoporteReceived($mensaje));
-
-        return redirect('/');
-    }
     public function MailContacto(Request $request)
     {
-     
+
         $mensaje= request()->validate([
             'Nombre'=>'required',
+            'tipo_identificacion'=>'required',
+            'identificacion'=>'required',
             'Telefono'=>'required',
             'Correo'=>'required',
-            'Ciudad'=>'required',
-            'Departamento'=>'required',
+            'AreaEncargada'=>'required',
+            'Asunto'=>'required',
             'Mensaje'=>'required',
+            'g-recaptcha-response'=>'required|recaptcha',
+            
         ]);
-        Mail::to('desarrollo1@stratecsa.com')->send(new MessageContactoReceived($mensaje));
-
+        Mail::to('jhonatan1153@hotmail.com')->send(new MessageContactoReceived($mensaje));
+       // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
+       // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
+       // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
         return redirect('/Contacto');
     }
 }

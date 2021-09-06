@@ -20,6 +20,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
   </script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LefrkscAAAAADHsA2nHM6EfPvhBggr6BKiA9V76"></script>
 </head>
 
 <body>
@@ -60,103 +61,6 @@
   @yield('content')
   <!-- Contenido -->
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Soporte</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form action="Telcobras/Soporte" method="POST">
-            {{ csrf_field() }}
-            <div class="form-row">
-              <div class="form-group col-sm-6">
-                <label for="NameBusiness">Nombre De la Empresa <span style="color: red">*</span></label>
-                <input id="NameBusiness" type="text" class="form-control" name="NombreEmpresa" required>
-              </div>
-              <div class="form-group col-sm-6">
-                <label for="IdVerificacion">Tipo de Identificacion <span style="color: red">*</span></label>
-                <select id="IdVerificacion" name="TipoIdentificacion" class="form-control" required>
-                  <option disabled selected>Seleccione</option>
-                  <option value="Registro civil">Registro civil(RC)</option>
-                  <option value="Tarjeta de identidad">Tarjeta de identidad(TI)</option>
-                  <option value="Cedula de ciudadania">Cédula de ciudadanía(CC)</option>
-                  <option value="Tarjeta de extranjeria">Tarjeta de extranjería(TE)</option>
-                  <option value="Cedula de extranjeria">Cédula de extranjería(CE)</option>
-                  <option value="Numero de identificación tributaria">Número de identificación tributaria(NIT)</option>
-                  <option value="Pasaporte">Pasaporte(PP)</option>
-                  <option value="Documento de identificación extranjero">Documento de identificación extranjero(DIE)
-                  </option>
-                </select>
-              </div>
-              <div class="form-group col-sm-6">
-                <label for="IDService">ID del servicio <span style="color: red">*</span></label>
-                <input id="IDService" type="number" class="form-control" min="0" name="IDService" required>
-              </div>
-              <div class=" form-group col-sm-6">
-                <label for="NameService">Nombre del servicio <span style="color: red">*</span></label>
-                <select id="NameService" name="NombreService" class="form-control" required>
-                  <option disabled selected>Seleccione</option>
-                  <option value="DATO 1">DATO 1</option>
-                  <option value="DATO 1">DATO 2</option>
-                  <option value="DATO 1">DATO 3</option>
-                  <option value="DATO 1">DATO 4</option>
-                  <option value="DATO 1">DATO 5</option>
-                </select>
-              </div>
-            </div>
-            <hr>
-            <div class="form-row">
-              <div class="form-group col-sm-6">
-                <label for="NameContacs">Nombre Contacto En Sitio <span style="color: red">*</span></label>
-                <input id="NameContacs" type="text" class="form-control" name="NombreContactoSitio" required>
-              </div>
-              <div class="form-group col-sm-3">
-                <label for="Phone">Teléfono <span style="color: red">*</span></label>
-                <input id="Phone" type="number" class="form-control" min="0" name="TelefonoContactoSitio" required>
-              </div>
-              <div class="form-group col-sm-3">
-                <label for="ExtPhone">Extensión Teléfono <span style="color: red">*</span></label>
-                <input id="ExtPhone" type="number" class="form-control" min="0" name="ExtTelefonoContactoSitio"
-                  required>
-              </div>
-            </div>
-            <hr>
-            <div class="form-row">
-              <div class="form-group col-sm-6">
-                <label for="AtencionRequire">REQUIERE ATENCION <span style="color: red">*</span></label>
-                <select id="AtencionRequire" name="AtencionRequire" class="form-control" required>
-                  <option value="" disabled selected>Seleccione</option>
-                  <option value="DIFICULTAD BAJA">DIFICULTAD BAJA</option>
-                  <option value="DIFICULTAD MEDIA">DIFICULTAD MEDIA</option>
-                  <option value="DIFICULTAD ALTA">DIFICULTAD ALTA</option>
-                  <option value="ATENCION URGENTE">ATENCION URGENTE</option>
-                </select>
-              </div>
-              <div class="form-group col-sm-12">
-                <label for="Observe">Observaciones </label>
-                <textarea id="Observe" name="Observaciones" cols="5" rows="5" class="form-control"
-                  placeholder="Opcional"></textarea>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="col-sm-3">
-                <button type="submit" class="form-control btn btn-primary">Enviar</button>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal -->
   <script type="text/javascript">
     $(window).on('load',function() {
         var url =  window.location.hash;
@@ -249,9 +153,6 @@
             </li>
             <li class="mb-2">
               <a href="/Cobertura" class="text-white">Cobertura</a>
-            </li>
-            <li class="mb-2">
-              <a href="#!" class="text-white" data-toggle="modal" data-target="#exampleModal">Soporte</a>
             </li>
             <li class="mb-2">
               <a href="/Contacto" class="text-white">Contáctenos</a>

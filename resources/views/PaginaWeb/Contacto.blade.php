@@ -35,33 +35,64 @@
                 {{ csrf_field() }}
                 <div class="form-row col-md-12">
                     <div class="form-group col-md-6">
-                        <label for="inputName">Nombre Completo</label>
-                        <input name="Nombre" type="text" class="form-control" id="inputName">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputPhone">Telefono</label>
-                        <input name="Telefono" type="number" class="form-control" id="inputPhone">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputCorreo">Correo</label>
-                        <input name="Correo" type="email" class="form-control" id="inputCorreo">
+                        <label>Nombre Completo</label>
+                        <input name="Nombre" type="text" class="form-control">
                     </div>
                     <div class="form-group col-md-3">
-                        <label for="inputAddress2">Ciudad</label>
-                        <input name="Ciudad" type="text" class="form-control">
+                        <label>Tipo de documento</label>
+                        <select name="tipo_identificacion" class="form-control">
+                            <option value="" selected disabled>Seleccione</option>
+                            <option value="Registro civil">Registro civil(RC)</option>
+                            <option value="Targeta de identidad">Tarjeta de identidad(TI)</option>
+                            <option value="Cédula de ciudadania">Cédula de ciudadanía(CC)</option>
+                            <option value="Targeta de extrangeria">Tarjeta de extranjería(TE)</option>
+                            <option value="Cédula de extrangeria">Cédula de extranjería(CE)</option>
+                            <option value="Número de identificación tributaria">Número de identificación
+                                tributaria(NIT)</option>
+                            <option value="Pasaporte">Pasaporte(PP)</option>
+                            <option value="Documento de identificación de extrangero">Documento de
+                                identificación extranjero(DIE)</option>
+                        </select>
                     </div>
                     <div class="form-group col-md-3">
-                        <label for="inputAddress2">Departamento</label>
-                        <input name="Departamento" type="text" class="form-control">
+                        <label>Numero de Identificación</label>
+                        <input name="identificacion" type="number" min="0" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Teléfono de Contacto</label>
+                        <input name="Telefono" type="number" min="0" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Correo</label>
+                        <input name="Correo" type="email" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label>Area</label>
+                    <select name="AreaEncargada" class="form-control">
+                        <option value="" selected disabled>Seleccione</option>
+                        <option value="Departamento Comercial">Departamento Comercial</option>
+                        <option value="Departamento Administrativo">Departamento Administrativo</option>
+                        <option value="Departamento Técnico">Departamento Técnico</option>
+                        <option value="Departamento Soporte">Departamento Soporte</option>
+                        <option value="Departamento Ventas">Departamento Ventas</option>
+                    </select>
+                    </div>
+
+                </div>
+                <div class="form-row col-md-12">
+                    <div class="form-group col-md-6">
+                        <label>Asunto</label>
+                        <input name="Asunto" type="text" class="form-control">
                     </div>
                     <div class="form-group col-md-12">
-                        <label for="inputAddress2">Mensaje</label>
+                        <label>Observaciones</label>
                         <textarea name="Mensaje" class="form-control" rows="9"></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <button type="submit" class="btn btn-primary center-text">Enviar Mensaje</button>
+                        <button type="submit" data-sitekey="6LefrkscAAAAADHsA2nHM6EfPvhBggr6BKiA9V76" 
+                        data-callback='onSubmit' class="btn btn-primary text-center">Enviar Mensaje</button>
                     </div>
                 </div>
             </form>
