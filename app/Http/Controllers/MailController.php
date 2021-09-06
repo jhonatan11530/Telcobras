@@ -24,7 +24,7 @@ class MailController extends Controller
             
         ]);
         Mail::to('jhonatan1153@hotmail.com')->send(new MessageContactoReceived($mensaje));
-       // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
+        Mail::to('noc@telcobras.com')->send(new MessageContactoReceived($mensaje));
        // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
        // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
         return redirect('/Contacto');

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Telcobras</title>
-  <link rel="icon" href="{{ asset('image/icono.ico') }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ URL::asset('image/favicon.ico') }}" type="image/x-icon">
   <!-- scripts -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
