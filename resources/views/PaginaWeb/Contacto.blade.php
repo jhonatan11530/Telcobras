@@ -73,8 +73,6 @@
                         <option value="Departamento Comercial">Departamento Comercial</option>
                         <option value="Departamento Administrativo">Departamento Administrativo</option>
                         <option value="Departamento Técnico">Departamento Técnico</option>
-                        <option value="Departamento Soporte">Departamento Soporte</option>
-                        <option value="Departamento Ventas">Departamento Ventas</option>
                     </select>
                     </div>
 
