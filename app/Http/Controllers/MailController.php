@@ -19,14 +19,11 @@ class MailController extends Controller
             'Correo'=>'required',
             'AreaEncargada'=>'required',
             'Asunto'=>'required',
-            'Mensaje'=>'required',
-            'g-recaptcha-response'=>'required|recaptcha',
+            'Mensaje'=>'required'
             
         ]);
         Mail::to('jhonatan1153@hotmail.com')->send(new MessageContactoReceived($mensaje));
-        Mail::to('noc@telcobras.com')->send(new MessageContactoReceived($mensaje));
-       // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
-       // Mail::to('usuario@telcobras.com')->send(new MessageContactoReceived($mensaje));
+        Mail::to('desarrollo1@stratecsa.com')->send(new MessageContactoReceived($mensaje));
         return redirect('/Contacto');
     }
 }

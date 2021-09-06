@@ -15,25 +15,25 @@
     <p>Datos del Contacto</p>
     <ul>
         <li>
-            Nombre : <span style="color: aqua;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Nombre']}}</span> 
+            Nombre : <strong><span style="color: #75A034;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Nombre']}}</span> </strong>
         </li>
         <li>
-            Tipo de Documento : <span style="color: aqua;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['tipo_identificacion']}}</span>  Numero de Identificación : <span style="color: aqua;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['identificacion']}}</span>
+            Tipo de Documento : <strong><span style="color: #75A034;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['tipo_identificacion']}}</span></strong>  Numero de Identificación : <strong><span style="color: #75A034;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['identificacion']}}</span></strong>
         </li>
         <li>
-            Teléfono de Contacto : <span style="color: aqua;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Telefono']}}</span>
+            Teléfono de Contacto : <strong><span style="color: #75A034;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Telefono']}}</span></strong>
         </li>
         <li>
-            Correo Electrónico : <span style="color: aqua;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Correo']}}</span>
+            Correo Electrónico : <strong><span style="color: #75A034;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Correo']}}</span></strong>
         </li>
         <li>
-            Departamento Solicitado : <span style="color: aqua;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['AreaEncargada']}}</span>
+            Departamento Solicitado : <strong><span style="color: #75A034;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['AreaEncargada']}}</span></strong>
         </li>
         <li>
             Nombre del Asunto : <strong><span style="color: black;font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Asunto']}}</span></strong>
         </li>
         <li>
-            Observaciones del Asunto : <span style="color: rgb(196, 52, 52);font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Mensaje']}}</span>
+            Observaciones del Asunto : <span style="font-family: Arial, Helvetica, sans-serif;">{{$mensaje['Mensaje']}}</span>
         </li>
     </ul>
     <p>Este correo es de tipo informativo y por lo tanto, le pedimos no responda a este mensaje. Si no desea recibir más información relacionada con Telcobras,por favor ingrese a <a href="https://telcobras.com/">Telcobras.com</a></p>

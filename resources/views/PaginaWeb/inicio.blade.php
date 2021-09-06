@@ -63,10 +63,10 @@
 <div class="container-fluid">
     <div class="row row-cols-1 row-cols-md-6">
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/ERT-1.svg')}}" class="img-fluid" alt="Error Image">
+            <img src="{{URL::asset('aliados/ERT.svg')}}" class="img-fluid" style="height: 250px" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/INTERNEXA.svg')}}" class="img-fluid" alt="Error Image">
+            <img src="{{URL::asset('aliados/INTERNEXA.svg')}}" class="img-fluid" style="height: 250px" alt="Error Image">
         </div>
         <div class="col mb-4">
             <img src="{{URL::asset('aliados/Media-Commerce.svg')}}" class="img-fluid" alt="Error Image">
@@ -84,7 +84,7 @@
             <img src="{{URL::asset('aliados/TIGO-UNE.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/impretics.svg')}}" class="img-fluid" alt="Error Image">
+            <img src="{{URL::asset('aliados/impretics.svg')}}" class="img-fluid" style="height: 250px" alt="Error Image">
         </div>
         <div class="col mb-4">
             <img src="{{URL::asset('aliados/Infotic.svg')}}" class="img-fluid" alt="Error Image">
@@ -93,7 +93,7 @@
             <img src="{{URL::asset('aliados/claro.svg')}}" class="img-fluid" alt="Error Image">
         </div>
         <div class="col mb-4">
-            <img src="{{URL::asset('aliados/gobernacionlogo.svg')}}" class="img-fluid" alt="Error Image">
+            <img src="{{URL::asset('aliados/GobernacionNarino.svg')}}" class="img-fluid" style="height: 250px" alt="Error Image">
         </div>
         <div class="col mb-4">
             <img src="{{URL::asset('aliados/SUBACHOQUE.svg')}}" class="img-fluid" alt="Error Image">

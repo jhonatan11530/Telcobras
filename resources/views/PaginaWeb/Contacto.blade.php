@@ -91,8 +91,7 @@
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <button type="submit" data-sitekey="6LefrkscAAAAADHsA2nHM6EfPvhBggr6BKiA9V76" 
-                        data-callback='onSubmit' class="btn btn-primary text-center">Enviar Mensaje</button>
+                        <button type="submit" data-sitekey="6LefrkscAAAAADHsA2nHM6EfPvhBggr6BKiA9V76" data-callback='onSubmit' class="btn btn-primary text-center">Enviar Mensaje</button>
                     </div>
                 </div>
             </form>
